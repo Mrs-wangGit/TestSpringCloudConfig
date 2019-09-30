@@ -5,4 +5,4 @@ public static void main(String [] args){
    int c =new Scanner(System.in).nextInt();
    System.out.println("输入了尼玛了个笔的!")
 
-}
+}1231231231321312
