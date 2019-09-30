@@ -1,0 +1,13 @@
+server:
+  port: 8092    
+spring:     #定义springmvc视图解析器
+  mvc:    view:      prefix: /WEB-INF/views/
+      suffix: .jsp
+#dubbo配置项   
+dubbo:
+  scan:
+    basePackages: com.jt  #配置包扫描
+  application:            #服务名称必须定义
+    name: consumer-web
+  registry:               #注册中心
+    address: zookeeper://192.168.182.128:2181?backup=192.168.182.128:2182,192.168.182.128:2183
