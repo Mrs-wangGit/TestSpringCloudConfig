@@ -1,1 +1,10 @@
-dsadsadasdasdasdsadsa
+public static void main(String [] args){
+
+   int a=19;
+   int b=20;
+   int c =new Scanner(System.in).nextInt();
+   System.out.println("输入了尼玛了个笔的!")
+
+
+
+}
